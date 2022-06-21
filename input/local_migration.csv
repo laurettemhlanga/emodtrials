@@ -1,0 +1,4 @@
+﻿Node 1,Node 2,0.2
+Node 2,Node 1,0.2
+Node 2,Node 3,0.33
+Node 3,Node 2,0.33

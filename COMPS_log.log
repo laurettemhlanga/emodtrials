@@ -1,0 +1,44 @@
+06/21 17:17:37 [DEBUG] [1580] [COMPS.Data.SerializableEntity] OutputFileMetadata --> {'Id': '_internal_id', 'Length': 'length', 'FriendlyName': 'friendly_name', 'PathFromRoot': 'path_from_root', 'Url': 'url', 'MimeType': 'mime_type'}
+06/21 17:17:37 [DEBUG] [1580] [COMPS.Data.SerializableEntity] AssetFile --> {'FileName': 'file_name', 'MD5Checksum': 'md5_checksum', 'Length': 'length', 'Uri': 'uri'}
+06/21 17:17:37 [DEBUG] [1580] [COMPS.Data.SerializableEntity] AssetCollectionFile --> {'RelativePath': 'relative_path', 'Tags': 'tags', 'FileName': 'file_name', 'MD5Checksum': 'md5_checksum', 'Length': 'length', 'Uri': 'uri'}
+06/21 17:17:37 [DEBUG] [1580] [COMPS.Data.SerializableEntity] AssetCollection --> {'Id': 'id', 'DateCreated': 'date_created', 'Tags': 'tags', 'Assets': 'assets'}
+06/21 17:17:37 [DEBUG] [1580] [COMPS.Data.SerializableEntity] Configuration --> {'EnvironmentName': 'environment_name', 'SimulationInputArgs': 'simulation_input_args', 'WorkingDirectoryRoot': 'working_directory_root', 'ExecutablePath': 'executable_path', 'NodeGroupName': 'node_group_name', 'MaximumNumberOfRetries': 'maximum_number_of_retries', 'Priority': 'priority', 'MinCores': 'min_cores', 'MaxCores': 'max_cores', 'Exclusive': 'exclusive', 'AssetCollectionId': 'asset_collection_id'}
+06/21 17:17:37 [DEBUG] [1580] [COMPS.Data.SerializableEntity] SimulationFile --> {'FileType': 'file_type', 'Description': 'description', 'FileName': 'file_name', 'MD5Checksum': 'md5_checksum', 'Length': 'length', 'Uri': 'uri'}
+06/21 17:17:37 [DEBUG] [1580] [COMPS.Data.SerializableEntity] WorkItemFile --> {'FileType': 'file_type', 'Description': 'description', 'FileName': 'file_name', 'MD5Checksum': 'md5_checksum', 'Length': 'length', 'Uri': 'uri'}
+06/21 17:17:37 [DEBUG] [1580] [COMPS.Data.SerializableEntity] HpcJob --> {'Id': '_internal_id', 'JobId': 'job_id', 'JobState': 'job_state', 'Priority': 'priority', 'WorkingDirectory': 'working_directory', 'OutputDirectorySize': 'output_directory_size', 'SubmitTime': 'submit_time', 'StartTime': 'start_time', 'EndTime': 'end_time', 'ErrorMessage': 'error_message', 'Configuration': 'configuration'}
+06/21 17:17:37 [DEBUG] [1580] [COMPS.Data.SerializableEntity] Simulation --> {'Id': 'id', 'ExperimentId': 'experiment_id', 'Name': 'name', 'Description': 'description', 'Owner': 'owner', 'DateCreated': 'date_created', 'LastModified': 'last_modified', 'SimulationState': 'state', 'ErrorMessage': 'error_message', 'Tags': 'tags', 'Configuration': 'configuration', 'Files': 'files', 'HPCJobs': 'hpc_jobs'}
+06/21 17:17:37 [DEBUG] [1580] [COMPS.Data.SerializableEntity] Experiment --> {'Id': 'id', 'SuiteId': 'suite_id', 'Name': 'name', 'Description': 'description', 'Owner': 'owner', 'DateCreated': 'date_created', 'LastModified': 'last_modified', 'Tags': 'tags', 'Configuration': 'configuration'}
+06/21 17:17:37 [DEBUG] [1580] [COMPS.Data.SerializableEntity] Suite --> {'Id': 'id', 'Name': 'name', 'Description': 'description', 'Owner': 'owner', 'DateCreated': 'date_created', 'LastModified': 'last_modified', 'Tags': 'tags', 'Configuration': 'configuration'}
+06/21 17:17:37 [DEBUG] [1580] [COMPS.Data.SerializableEntity] WorkItem --> {'Id': 'id', 'Name': 'name', 'Worker': 'worker', 'EnvironmentName': 'environment_name', 'Description': 'description', 'Owner': 'owner', 'DateCreated': 'date_created', 'LastModified': 'last_modified', 'State': 'state', 'ErrorMessage': 'error_message', 'HostName': 'host_name', 'WorkerInstanceId': 'worker_instance_id', 'WorkItemPriority': 'priority', 'WorkingDirectory': 'working_directory', 'WorkingDirectorySize': 'working_directory_size', 'AssetCollectionId': 'asset_collection_id', 'Tags': 'tags', 'Files': 'files', 'Plugins': 'plugins'}
+06/21 17:17:37 [DEBUG] [1580] [COMPS.Client] Parsed login host: ('https', 'comps.idmod.org', None)
+06/21 17:17:37 [DEBUG] [1580] [COMPS.Client] Parsed login host: ('https', 'comps.idmod.org', None)
+06/21 17:17:37 [INFO] [1580] [COMPS.Client] Already logged into https://comps.idmod.org.  Skipping login.
+06/21 17:17:37 [DEBUG] [1580] [COMPS.Client] REQUEST -> GET https://comps.idmod.org/api/ld/DataSets.json
+06/21 17:17:38 [DEBUG] [1580] [COMPS.Data.WorkItem] md5 checksum for file WorkOrder.json is 299deae4-5bd6-6926-2f6e-4e471a01021a
+06/21 17:17:38 [DEBUG] [1580] [COMPS.Data.WorkItem] md5 checksum for file Ghana_demographics.json is 01302cad-ce66-caee-fe8f-dee61328545c
+06/21 17:17:38 [DEBUG] [1580] [COMPS.Data.WorkItem] No save_semaphore passed in; using process-local semaphore
+06/21 17:17:38 [DEBUG] [1580] [COMPS.Client] REQUEST -> POST https://comps.idmod.org/api/WorkItems
+06/21 17:17:39 [DEBUG] [1580] [COMPS.Client] REQUEST -> PUT https://comps.idmod.org/api/WorkItems/74e899d5-aff1-ec11-a9f9-b88303911bc1/State/CommissionRequested
+06/21 17:17:44 [DEBUG] [1580] [COMPS.Client] REQUEST -> GET https://comps.idmod.org/api/WorkItems/74e899d5-aff1-ec11-a9f9-b88303911bc1 {'count': 100000}
+06/21 17:17:50 [DEBUG] [1580] [COMPS.Client] REQUEST -> GET https://comps.idmod.org/api/WorkItems/74e899d5-aff1-ec11-a9f9-b88303911bc1 {'count': 100000}
+06/21 17:17:55 [DEBUG] [1580] [COMPS.Client] REQUEST -> GET https://comps.idmod.org/api/WorkItems/74e899d5-aff1-ec11-a9f9-b88303911bc1 {'count': 100000}
+06/21 17:18:00 [DEBUG] [1580] [COMPS.Client] REQUEST -> GET https://comps.idmod.org/api/WorkItems/74e899d5-aff1-ec11-a9f9-b88303911bc1 {'count': 100000}
+06/21 17:18:05 [DEBUG] [1580] [COMPS.Client] REQUEST -> GET https://comps.idmod.org/api/WorkItems/74e899d5-aff1-ec11-a9f9-b88303911bc1 {'count': 100000}
+06/21 17:18:11 [DEBUG] [1580] [COMPS.Client] REQUEST -> GET https://comps.idmod.org/api/WorkItems/74e899d5-aff1-ec11-a9f9-b88303911bc1 {'count': 100000}
+06/21 17:18:16 [DEBUG] [1580] [COMPS.Client] REQUEST -> GET https://comps.idmod.org/api/WorkItems/74e899d5-aff1-ec11-a9f9-b88303911bc1 {'count': 100000}
+06/21 17:18:21 [DEBUG] [1580] [COMPS.Client] REQUEST -> GET https://comps.idmod.org/api/WorkItems/74e899d5-aff1-ec11-a9f9-b88303911bc1 {'count': 100000}
+06/21 17:18:26 [DEBUG] [1580] [COMPS.Client] REQUEST -> GET https://comps.idmod.org/api/WorkItems/74e899d5-aff1-ec11-a9f9-b88303911bc1 {'count': 100000}
+06/21 17:18:32 [DEBUG] [1580] [COMPS.Client] REQUEST -> GET https://comps.idmod.org/api/WorkItems/74e899d5-aff1-ec11-a9f9-b88303911bc1 {'count': 100000}
+06/21 17:18:37 [DEBUG] [1580] [COMPS.Client] REQUEST -> GET https://comps.idmod.org/api/WorkItems/74e899d5-aff1-ec11-a9f9-b88303911bc1 {'count': 100000}
+06/21 17:18:42 [DEBUG] [1580] [COMPS.Client] REQUEST -> GET https://comps.idmod.org/api/WorkItems/74e899d5-aff1-ec11-a9f9-b88303911bc1 {'count': 100000}
+06/21 17:18:48 [DEBUG] [1580] [COMPS.Client] REQUEST -> GET https://comps.idmod.org/api/WorkItems/74e899d5-aff1-ec11-a9f9-b88303911bc1 {'count': 100000}
+06/21 17:18:53 [DEBUG] [1580] [COMPS.Client] REQUEST -> GET https://comps.idmod.org/api/WorkItems/74e899d5-aff1-ec11-a9f9-b88303911bc1 {'count': 100000}
+06/21 17:18:58 [DEBUG] [1580] [COMPS.Client] REQUEST -> GET https://comps.idmod.org/api/WorkItems/74e899d5-aff1-ec11-a9f9-b88303911bc1 {'count': 100000}
+06/21 17:19:03 [DEBUG] [1580] [COMPS.Client] REQUEST -> GET https://comps.idmod.org/api/WorkItems/74e899d5-aff1-ec11-a9f9-b88303911bc1 {'count': 100000}
+06/21 17:19:09 [DEBUG] [1580] [COMPS.Client] REQUEST -> GET https://comps.idmod.org/api/WorkItems/74e899d5-aff1-ec11-a9f9-b88303911bc1 {'count': 100000}
+06/21 17:19:09 [DEBUG] [1580] [COMPS.Client] REQUEST -> GET https://comps.idmod.org/api/WorkItems/74e899d5-aff1-ec11-a9f9-b88303911bc1/Related {'RelatedObject': 'AssetCollection'}
+06/21 17:19:09 [DEBUG] [1580] [COMPS.Client] REQUEST -> GET https://comps.idmod.org/api/AssetCollections/e0819a02-b0f1-ec11-a9f9-b88303911bc1 {'count': 100000}
+06/21 17:19:09 [DEBUG] [1580] [COMPS.Client] REQUEST -> GET https://comps.idmod.org/api/AssetCollections/e0819a02-b0f1-ec11-a9f9-b88303911bc1 {'children': 'Assets', 'count': 100000}
+06/21 17:19:10 [DEBUG] [1580] [COMPS.Client] REQUEST -> POST https://comps.idmod.org/api/ZipAssets
+06/21 17:19:11 [DEBUG] [1580] [COMPS.Data.AssetManager] adding zip download url = https://comps.idmod.org:443/asset/download/XmMOPoGq4xOgc.vyWRMxS9108zxLLv7LuevZZJ5MzUw_/UmVzZXJ2ZWRGb3JGdXR1cmVVc2U_/XFxpbnRlcm5hbC5pZG0uY3RyXElETVxDT01QU1xTdG9yYWdlXGdlbmVyYXRlZFppcEZpbGVzXENvbnRhaW5lci0yYzEzZDIwOC1hZTdhLTQzN2MtYmQyZS03YmI3ZmI0ZTI4MGIuemlw/ZippedAssets_20220621_101817_1215.zip
+06/21 17:19:11 [DEBUG] [1580] [COMPS.Client] REQUEST -> GET https://comps.idmod.org/asset/download/XmMOPoGq4xOgc.vyWRMxS9108zxLLv7LuevZZJ5MzUw_/UmVzZXJ2ZWRGb3JGdXR1cmVVc2U_/XFxpbnRlcm5hbC5pZG0uY3RyXElETVxDT01QU1xTdG9yYWdlXGdlbmVyYXRlZFppcEZpbGVzXENvbnRhaW5lci0yYzEzZDIwOC1hZTdhLTQzN2MtYmQyZS03YmI3ZmI0ZTI4MGIuemlw/ZippedAssets_20220621_101817_1215.zip
