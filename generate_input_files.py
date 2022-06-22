@@ -10,25 +10,16 @@ import sys
 sys.path.append('../')
 from load_paths import load_box_paths
 
-# home_path, data_path = load_box_paths()
-
 location = "Ghana"
-dhs_year = "2003"
+dhs_year = "2016"
 input = "all"
 
 user_path = os.path.expanduser("~")
-# home_path = os.path.join(user_path, 'Documents', 'urban_malaria', "github_clones" )
-# data_path = os.path.join(home_path, 'emodtrials', 'input')
-# project_path = os.path.join(data_path, 'Ghana')
-
 
 if os.name == "posix":
     inputs_path = os.path.join(data_path, 'simulation_inputs')
 else:
-    home_path = os.path.join(user_path, 'Documents', 'urban_malaria', "github_clones", "emodtrials")
-
-# choice of state to produce the simulation
-    inputs_path = os.path.join(home_path, 'input', 'demographics', 'Ghana')
+    home_path, inputs_path = load_box_paths()
 
 def generate_demographics(demo_df, hfca, demo_fname, use_DHS_birth_rates=False) :
     if not SetupParser.initialized:
