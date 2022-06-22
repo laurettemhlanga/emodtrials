@@ -1,14 +1,13 @@
-
-import os
 import json
-import numpy as np
-import sys
+import os
 
 from input_file_generation.convert_txt_to_bin import convert_txt_to_bin
+
 #C:\Users\lml6626\Documents\urban_malaria\emod_trials\input\Ghana
-user_path =os.path.expanduser("~")
-home_path = os.path.join(user_path, 'Documents', 'urban_malaria')
-data_path = os.path.join(home_path, 'emod_trials', 'input')
+#C:\Users\User\Documents\urban_malaria\github_clones
+user_path = os.path.expanduser("~")
+home_path = os.path.join(user_path, 'Documents', 'urban_malaria', "github_clones" )
+data_path = os.path.join(home_path, 'emodtrials', 'input')
 project_path = os.path.join(data_path, 'Ghana')
 
 demo_fname = os.path.join(data_path, 'Ghana', 'Ghana_demographics.json')
@@ -18,10 +17,10 @@ with open(demo_fname) as fin:
 id_reference = demo['Metadata']['IdReference']
 
 #C:\Users\lml6626\Documents\urban_malaria\emod_trials\input
-mig_type = 'LOCAL'
+# mig_type = 'LOCAL'
 convert_txt_to_bin(os.path.join(data_path,'local_migration.csv'),
                    'local_migration.bin',
-                    mig_type = 'LOCAL',
+                    mig_type = 'LOCAL_MIGRATION',
                     id_reference = id_reference)
 
 cb.update_params({

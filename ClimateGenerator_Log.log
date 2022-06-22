@@ -30,3 +30,51 @@
 2022-06-21 17:19:10,666: INFO: - Ghana_2.5arcmin_demographics.json (5 KB)
 2022-06-21 17:19:10,667: INFO: Downloading to ./input/Ghana...
 2022-06-21 17:19:11,340: INFO: Climate files SUCCESSFULLY stored.
+2022-06-22 06:12:48,450: INFO: Created request for climate files generation.
+2022-06-22 06:12:48,455: INFO: Commissioning...
+2022-06-22 06:12:48,935: INFO: CommissionRequested.
+2022-06-22 06:12:48,935: INFO: Work item id is: 79e7cf8d-e1f1-ec11-a9f9-b88303911bc1.
+2022-06-22 06:14:27,094: INFO: Work item state is: WorkItemState.Succeeded
+2022-06-22 06:14:27,095: INFO: Climate files SUCCESSFULLY generated
+2022-06-22 06:14:28,351: INFO: Found output files:
+2022-06-22 06:14:28,351: INFO: - Ghana_30arcsec_air_temperature_daily.bin (1 KB)
+2022-06-22 06:14:28,352: INFO: - Ghana_30arcsec_relative_humidity_daily.bin (1 KB)
+2022-06-22 06:14:28,352: INFO: - Ghana_30arcsec_rainfall_daily.bin (1 KB)
+2022-06-22 06:14:28,352: INFO: - Ghana_30arcsec_relative_humidity_daily.bin.json (990 bytes)
+2022-06-22 06:14:28,352: INFO: - Ghana_30arcsec_air_temperature_daily.bin.json (990 bytes)
+2022-06-22 06:14:28,352: INFO: - Ghana_30arcsec_rainfall_daily.bin.json (980 bytes)
+2022-06-22 06:14:28,352: INFO: - Ghana_2.5arcmin_demographics.json (5 KB)
+2022-06-22 06:14:28,352: INFO: Downloading to C:\Users\User\Documents\urban_malaria\github_clones\emodtrials\input\demographics\Ghana\Obom...
+2022-06-22 06:14:29,184: INFO: Climate files SUCCESSFULLY stored.
+2022-06-22 06:14:30,094: INFO: Created request for climate files generation.
+2022-06-22 06:14:30,094: INFO: Commissioning...
+2022-06-22 06:14:30,454: INFO: CommissionRequested.
+2022-06-22 06:14:30,454: INFO: Work item id is: aa8e58ca-e1f1-ec11-a9f9-b88303911bc1.
+2022-06-22 06:15:52,102: INFO: Work item state is: WorkItemState.Succeeded
+2022-06-22 06:15:52,102: INFO: Climate files SUCCESSFULLY generated
+2022-06-22 06:15:53,199: INFO: Found output files:
+2022-06-22 06:15:53,199: INFO: - Ghana_2.5arcmin_demographics.json (5 KB)
+2022-06-22 06:15:53,204: INFO: - Ghana_30arcsec_rainfall_daily.bin (1 KB)
+2022-06-22 06:15:53,204: INFO: - Ghana_30arcsec_relative_humidity_daily.bin (1 KB)
+2022-06-22 06:15:53,204: INFO: - Ghana_30arcsec_air_temperature_daily.bin (1 KB)
+2022-06-22 06:15:53,204: INFO: - Ghana_30arcsec_rainfall_daily.bin.json (980 bytes)
+2022-06-22 06:15:53,204: INFO: - Ghana_30arcsec_relative_humidity_daily.bin.json (990 bytes)
+2022-06-22 06:15:53,204: INFO: - Ghana_30arcsec_air_temperature_daily.bin.json (990 bytes)
+2022-06-22 06:15:53,204: INFO: Downloading to C:\Users\User\Documents\urban_malaria\github_clones\emodtrials\input\demographics\Ghana\Kofi_Kwei...
+2022-06-22 06:15:53,994: INFO: Climate files SUCCESSFULLY stored.
+2022-06-22 06:15:55,056: INFO: Created request for climate files generation.
+2022-06-22 06:15:55,056: INFO: Commissioning...
+2022-06-22 06:15:55,391: INFO: CommissionRequested.
+2022-06-22 06:15:55,392: INFO: Work item id is: b1cc9500-e2f1-ec11-a9f9-b88303911bc1.
+2022-06-22 06:17:22,112: INFO: Work item state is: WorkItemState.Succeeded
+2022-06-22 06:17:22,112: INFO: Climate files SUCCESSFULLY generated
+2022-06-22 06:17:23,201: INFO: Found output files:
+2022-06-22 06:17:23,201: INFO: - Ghana_30arcsec_air_temperature_daily.bin (1 KB)
+2022-06-22 06:17:23,201: INFO: - Ghana_30arcsec_relative_humidity_daily.bin.json (990 bytes)
+2022-06-22 06:17:23,201: INFO: - Ghana_30arcsec_air_temperature_daily.bin.json (990 bytes)
+2022-06-22 06:17:23,201: INFO: - Ghana_30arcsec_rainfall_daily.bin (1 KB)
+2022-06-22 06:17:23,201: INFO: - Ghana_30arcsec_relative_humidity_daily.bin (1 KB)
+2022-06-22 06:17:23,201: INFO: - Ghana_2.5arcmin_demographics.json (5 KB)
+2022-06-22 06:17:23,201: INFO: - Ghana_30arcsec_rainfall_daily.bin.json (980 bytes)
+2022-06-22 06:17:23,201: INFO: Downloading to C:\Users\User\Documents\urban_malaria\github_clones\emodtrials\input\demographics\Ghana\Obom_Away...
+2022-06-22 06:17:23,941: INFO: Climate files SUCCESSFULLY stored.

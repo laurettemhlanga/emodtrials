@@ -9,8 +9,8 @@
       "humid",
       "rain"
    ],
-   "StartYear": "2001",
-   "NumYears": "16",
+   "StartYear": "2016",
+   "NumYears": "1",
    "NaNCheck": true,
    "Migration": false,
    "IdReference": "Custom user",
