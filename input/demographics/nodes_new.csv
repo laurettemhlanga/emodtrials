@@ -1,0 +1,4 @@
+nodeid,Village,population,pop_gain,pop_loss,population2,pop_gain2,pop_loss2,population3,pop_gain3,pop_loss3,population4,lat,lon,habitat_scale,baseline_prevalence
+1,Obom,1400,696,655,1441,548,566,1423,602,516,1509,5.735507,-0.439614,1,0.33
+2,Kofi_Kwei,2255,761,851,2165,826,736,2255,880,752,2383,5.751757,-0.405375,1,0.19
+3,Other,3293,1506,1457,3342,1302,1374,3270,1268,1482,3056,5.74,-0.41,1,0.25

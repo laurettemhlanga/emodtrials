@@ -1,0 +1,12 @@
+{
+    "Metadata": {
+        "Author": "dbridenbecker",
+        "NodeCount": 2,
+        "IdReference": "Custom user",
+        "DateCreated": "Thu Jun 23 14:17:06 2022",
+        "Tool": "construct_migration.py",
+        "DatavalueCount": 1,
+        "MigrationType": "REGIONAL_MIGRATION"
+    },
+    "NodeOffsets": "0000000100000000000000020000000C"
+}
