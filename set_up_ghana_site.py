@@ -11,6 +11,22 @@ from load_paths import load_box_paths
 datapath, projectpath = load_box_paths()
 
 
+# def load_box_paths(user_path=None, parser_default='HPC'):
+# # adapt the code to suite you file structure
+#
+#     if not user_path :
+#         user_path = os.path.expanduser('~')
+#         if 'lml6626' in user_path :
+#             home_path = os.path.join(user_path, 'Documents', 'urban_malaria')
+#             # data_path = os.path.join(home_path, 'input', 'demographics')
+#         else :
+#             home_path = os.path.join(user_path, 'Documents', 'urban_malaria', "github_clones")
+#
+#     inputs_path = os.path.join(home_path,'emodtrials','input', 'demographics', 'Ghana')
+#
+#     return home_path, inputs_path
+
+
 def set_up_basic_params(cb, years) :
 
     cb.update_params({'Enable_Vital_Dynamics': 1,

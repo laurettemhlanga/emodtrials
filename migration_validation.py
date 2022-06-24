@@ -7,7 +7,7 @@ from simtools.SetupParser import SetupParser
 from simtools.ModBuilder import ModBuilder, ModFn
 import sys
 
-sys.path.append('../helpers/')
+# sys.path.append('../helpers/')
 from load_paths import load_box_paths
 from set_up_ghana_site import setup_simulation
 
