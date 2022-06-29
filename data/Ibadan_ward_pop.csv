@@ -1,0 +1,60 @@
+nodeid,Ward,lon,lat,LGA,population,State,out.model.classification,Archetype
+1,Agugu,3.928626305,7.380558496,Ibadan North East,32276.5,Oyo,2,Challenge
+2,Alafara,3.905749671,7.383098292,Ibadan North East,4429,Oyo,2,Challenge
+3,Oke Adu,3.920948684,7.390915251,Ibadan North East,29031.5,Oyo,1,Olopomewa
+4,Oja Gbo,3.911847364,7.376654309,Ibadan North East,32517.5,Oyo,2,Challenge
+5,Basorun,3.935825135,7.407419652,Ibadan North East,27516.5,Oyo,3,Agugu
+6,Odo Osun,3.901585139,7.380301684,Ibadan North East,3735.5,Oyo,3,Agugu
+7,Oranyan_7,3.90269381,7.376761132,Ibadan North East,6267.5,Oyo,1,Olopomewa
+8,Oje,3.907739393,7.386477048,Ibadan North East,4171,Oyo,3,Agugu
+9,Irefin,3.914092343,7.390698277,Ibadan North East,7553,Oyo,3,Agugu
+10,Odeaje,3.92307182,7.346004564,Ibadan North East,30871,Oyo,2,Challenge
+11,Aperin,3.928568497,7.369001915,Ibadan North East,34269,Oyo,2,Challenge
+12,Atipe,3.931404522,7.358340882,Ibadan North East,13915,Oyo,2,Challenge
+13,Oritamerin,3.842849631,7.368508615,Ibadan South West,2126,Oyo,1,Olopomewa
+14,Agbokojo,3.857475972,7.341548513,Ibadan South West,6062,Oyo,3,Agugu
+15,Ring Road,3.862081867,7.355399431,Ibadan South West,37985.5,Oyo,4,Asanke
+16,Alesinloye,3.866286583,7.379439181,Ibadan South West,11369,Oyo,1,Olopomewa
+17,Amule,3.885428976,7.381447953,Ibadan South West,3469,Oyo,3,Agugu
+18,Oke Ado,3.875468849,7.366796941,Ibadan South West,20039.5,Oyo,3,Agugu
+19,Popoyemoja,3.887883159,7.361847492,Ibadan South West,4339.5,Oyo,3,Agugu
+20,Isale Osi,3.892040433,7.371261401,Ibadan South West,9471,Oyo,3,Agugu
+21,Molete,3.878209469,7.3792426,Ibadan South West,5718,Oyo,2,Challenge
+22,Foko,3.885531141,7.375641802,Ibadan South West,14343.5,Oyo,1,Olopomewa
+23,Ita Aregbeomo,3.891051595,7.36679052,Ibadan South West,5065,Oyo,3,Agugu
+24,Apata,3.848582496,7.373385908,Ibadan South West,8169.5,Oyo,3,Agugu
+25,Ago Tapa,3.893298692,7.40533037,Ibadan North,6715,Oyo,3,Agugu
+26,Oke Itunu,3.890559229,7.414288422,Ibadan North,6207,Oyo,2,Challenge
+27,Agodi,3.915441145,7.400165278,Ibadan North,15105,Oyo,1,Olopomewa
+28,Bashorun,3.923504167,7.421184576,Ibadan North,50230,Oyo,1,Olopomewa
+29,Old Bodija,3.903947257,7.412454943,Ibadan North,16624.5,Oyo,1,Olopomewa
+30,Sango,3.881350014,7.424610639,Ibadan North,24957,Oyo,4,Asanke
+31,Oke Are,3.899535907,7.383180119,Ibadan North,3761,Oyo,3,Agugu
+32,Sabo,3.887026818,7.401434588,Ibadan North,7012,Oyo,2,Challenge
+33,Nalende,3.894211317,7.393558045,Ibadan North,13677.5,Oyo,2,Challenge
+34,Agbowo,3.916304094,7.441773794,Ibadan North,39142,Oyo,4,Asanke
+35,Samonda,3.894869476,7.441824418,Ibadan North,22287,Oyo,4,Asanke
+36,Yemetu,3.901861984,7.393060603,Ibadan North,17252,Oyo,2,Challenge
+37,Idikan,3.889353382,7.384820824,Ibadan North West,5961,Oyo,3,Agugu
+38,Afonta,3.866319603,7.396826169,Ibadan North West,24354.5,Oyo,1,Olopomewa
+39,Olopomewa,3.84340177,7.423210881,Ibadan North West,49763,Oyo,4,Asanke
+40,Agbaje,3.891950479,7.379067012,Ibadan North West,3626,Oyo,3,Agugu
+41,Abebi,3.890437723,7.388080516,Ibadan North West,8198,Oyo,3,Agugu
+42,Oritamerin_2,3.889597254,7.381890491,Ibadan North West,6745,Oyo,3,Agugu
+43,Eleyele,3.870583726,7.411453311,Ibadan North West,14325,Oyo,1,Olopomewa
+44,Ekotedo,3.883577728,7.389557554,Ibadan North West,11410,Oyo,3,Agugu
+45,Asukuna,3.89574716,7.38269687,Ibadan North West,4718,Oyo,3,Agugu
+46,Bere,3.895099228,7.379787375,Ibadan North West,2191,Oyo,1,Olopomewa
+47,Inalende,3.889697269,7.39438009,Ibadan North West,6485,Oyo,3,Agugu
+48,Oja'ba,3.897185141,7.369860079,Ibadan South East,5819,Oyo,3,Agugu
+49,Adesola,3.9199583,7.362747227,Ibadan South East,9641.5,Oyo,1,Olopomewa
+50,Challenge,3.881724712,7.341490471,Ibadan South East,29486,Oyo,3,Agugu
+51,Oranyan,3.900268503,7.373090362,Ibadan South East,3051,Oyo,1,Olopomewa
+52,Asanike,3.9111042,7.36824129,Ibadan South East,16337,Oyo,3,Agugu
+53,Beere,3.895870497,7.376294206,Ibadan South East,8720.5,Oyo,2,Challenge
+54,Owode,3.908007687,7.3514204,Ibadan South East,24743,Oyo,4,Asanke
+55,Molete_2,3.896835274,7.350141699,Ibadan South East,36522.5,Oyo,2,Challenge
+56,Oke-Oluokun,3.901287681,7.363888428,Ibadan South East,7755,Oyo,1,Olopomewa
+57,Ita-Ege,3.902852326,7.368500816,Ibadan South East,6186,Oyo,1,Olopomewa
+58,Odinjo,3.914401031,7.356121504,Ibadan South East,25300,Oyo,2,Challenge
+59,Kobomoje,3.900142513,7.369873129,Ibadan South East,2128,Oyo,3,Agugu
